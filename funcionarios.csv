@@ -1,0 +1,7 @@
+id_funcionario,nome,data_nascimento,idade,salario,cargo
+101,João Silva,1985-05-12,40,4500.0,Técnico Mecânico
+102,Ana Souza,1990-08-25,35,5200.0,Engenheira de Manutenção
+103,Carlos Pereira,1978-02-10,47,6000.0,Supervisor de Manutenção
+104,Mariana Costa,1995-11-03,29,3800.0,Técnica Eletricista
+105,Fernanda Lima,1988-04-18,37,4900.0,Analista de Manutenção
+106,Rafael Gomes,1992-09-07,33,4100.0,Técnico de Automação
