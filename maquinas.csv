@@ -1,0 +1,4 @@
+id_maquina,modelo,tipo,data_instalacao,ultima_manutencao
+10,M123-SoldaX,Solda,2024-01-15,2025-09-01
+11,C450-CorteMax,Corte,2023-07-20,2025-09-02
+12,P890-PinturaPro,Pintura,2022-11-05,2025-09-03

@@ -1,0 +1,8 @@
+# Configurações de E-mail (SMTP)
+SMTP_SERVER=smtp.gmail.com
+SMTP_PORT=587
+SMTP_USER=carlos.souza004@gmail.com
+SMTP_PASS=edu1
+
+# Webhook do Microsoft Teams
+TEAMS_WEBHOOK=https://outlook.office.com/webhook/SEU_WEBHOOK_AQUI
