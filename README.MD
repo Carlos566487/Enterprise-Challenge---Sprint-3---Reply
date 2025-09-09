@@ -108,14 +108,14 @@ Modelar um banco de dados que garanta **integridade, rastreabilidade e qualidade
 - Registro de leitura → pode estar vinculada a máquina ou não.  
 - Abertura de manutenção → exige máquina + funcionário válidos.  
 
----
+---der
 
 ## 📊 DER — Diagrama Entidade Relacionamento
 
 📌 *Inserir aqui a imagem exportada do Oracle SQL Developer Data Modeler*  
 *(Exemplo de placeholder abaixo)*  
 
-![DER Exemplo](./docs/DER.png)
+![DER Exemplo](./saida/figs/der1.png)
 
 ---
 
@@ -278,6 +278,8 @@ Saídas principais:
 - `saida/relatorios/metricas_classificacao.csv`
 - `saida/relatorios/dados_sensores_resultados.csv`
 - `saida/figs/`
+
+![DASBOARD](./saida/figs/Dash_Fase_5.png)
 
 ---
 
