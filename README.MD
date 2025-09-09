@@ -161,6 +161,7 @@ Abaixo, a versão do fluxograma já exportada como imagem **embutida em Base64**
 
 ![Fluxograma](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAA...SEUPLACEHOLDER...AAAElFTkSuQmCC)
 
+
 > ⚠️ Substitua o conteúdo entre `data:image/png;base64, ...` pelo base64 real do fluxograma exportado.
 
 ---
@@ -211,6 +212,9 @@ Abaixo, a versão do fluxograma já exportada como imagem **embutida em Base64**
 - `outdir/figs/confusion_matrix.png`
 - `outdir/figs/roc_curve.png`
 
+saida/figs/confusion_matrix.png
+
+saida/figs/roc_curve.png
 ---
 
 ## ⚠️ Limitações
