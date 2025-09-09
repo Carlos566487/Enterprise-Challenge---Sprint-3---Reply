@@ -117,6 +117,8 @@ Modelar um banco de dados que garanta **integridade, rastreabilidade e qualidade
 
 ![DER Exemplo](./saida/figs/der1.png)
 
+![DER Exemplo](./saida/figs/der2.png)
+
 ---
 
 ## 💾 Script DDL (Oracle 12cR2)
