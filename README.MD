@@ -121,7 +121,7 @@ Modelar um banco de dados que garanta **integridade, rastreabilidade e qualidade
 
 ## 💾 Script DDL (Oracle 12cR2)
 
-```sql
+
 -- Criação da tabela MAQUINA_AUTONOMA
 CREATE TABLE MAQUINA_AUTONOMA (
   ID_MAQUINA         NUMBER GENERATED ALWAYS AS IDENTITY,
