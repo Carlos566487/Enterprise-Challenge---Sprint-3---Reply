@@ -1,7 +1,43 @@
-# Enterprise Challenge – Sprint 3 – Reply
+# 🚀 Enterprise Challenge – Sprint 3 – Reply
 
-**Projeto:** Enterprise Challenge - Sprint 3 - Reply  
-**Resumo:** Repositório com modelagem de banco de dados (Oracle 12cR2), pipeline de ML para leituras de sensores (`pipeline_sensor5.py`) e scripts de apoio para ingestão, explicações SHAP e avaliação contínua. Este README reúne a documentação executiva e técnica: modelagem do BD, implementação do ML e principais resultados.
+**Projeto:** *Enterprise Challenge - Sprint 3 - Reply*  
+**Resumo:**  
+Repositório com:  
+- 📊 **Modelagem de Banco de Dados** (Oracle 12cR2)  
+- 🤖 **Pipeline de Machine Learning** para leituras de sensores (`pipeline_sensor5.py`)  
+- 🛠️ **Scripts de apoio**: ingestão, explicações SHAP e avaliação contínua  
+
+Este README reúne a documentação executiva e técnica: **modelagem do BD**, **implementação do ML** e **principais resultados**.
+
+---
+
+## 👥 Equipe do Projeto
+| Integrante | RM | E-mail |
+|------------|------|-------------------------|
+| João       | rm565999 | fontesjoaovittor@gmail.com |
+| Vinícius   | rm566269 | nisoxds@gmail.com |
+| Endrew     | rm563646 | endrewalves42@gmail.com |
+| Tayná      | rm562491 | esteves.tayna96@gmail.com |
+| Carlos     | rm566487 | carlos.souza004@gmail.com |
+
+---
+
+## 📂 Repositório do Projeto
+🔗 [GitHub - Enterprise Challenge - Sprint 3 - Reply](https://github.com/Carlos566487/Enterprise-Challenge---Sprint-3---Reply.git)
+
+---
+
+## 🎥 Apresentação em Vídeo
+▶️ [YouTube - Apresentação do Projeto](https://youtu.be/TA4k9GvNGrA)
+
+---
+
+## 📌 Estrutura do Projeto
+- `pipeline_sensor5.py` → ETL + ML para leituras de sensores  
+- `dashboard_avancado.py` → Dashboard interativo para exploração e insights  
+- `docs/` → Documentação técnica e relatórios de resultados  
+- `data/` → Conjunto de dados simulados e tratados  
+
 
 ---
 
@@ -157,9 +193,8 @@ Também realiza **detecção de anomalias via IsolationForest**, classificando l
 
 Abaixo, a versão do fluxograma já exportada como imagem **embutida em Base64** (auto-contida, sem dependências externas):
 
-![Fluxograma](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAA...SEUPLACEHOLDER...AAAElFTkSuQmCC)
+![Fluxograma](saida/figs/fluxograma_pipeline.png)
 
-> ⚠️ Substitua o conteúdo entre `data:image/png;base64, ...` pelo base64 real do fluxograma exportado.
 
 ---
 
@@ -489,8 +524,6 @@ Distribuição típica: cauda longa em `anomalia_score`, confirmando presença d
 
 ## 🔄 Fluxo do Pipeline
 
-```mermaid
-flowchart TD
     A[Ingestão CSVs] --> B[Limpeza & Canonicalização]
     B --> C[Enriquecimento com máquinas/manutenções/funcionários]
     C --> D[ML Supervisionado - RandomForest]
